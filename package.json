@@ -1,0 +1,28 @@
+{
+  "name": "desafio03-refatorando-foodfy",
+  "version": "1.0.0",
+  "description": "Bootcamp LaunchBase  - Desafios Módulo 3 - Iniciando no Back-end -Refatorando Foodfy",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcoac20/desafio03-refatorando-foodfy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcoac20/desafio03-refatorando-foodfy/issues"
+  },
+  "homepage": "https://github.com/marcoac20/desafio03-refatorando-foodfy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
