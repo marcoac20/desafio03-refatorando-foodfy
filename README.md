@@ -14,7 +14,7 @@ Para executar, abra o terminal na pasta do repositório e digite o comando:
 Após a intalação, execute o comando:
 `npm start`
 
-Abra o navegador e digite no endereço [localhost:5000](localhost:5000)
+Abra o navegador e digite no endereço: [localhost:5000](localhost:5000)
 
 
 ### Regras
