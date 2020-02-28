@@ -33,8 +33,8 @@ Obs.: Você precisará converter seu projeto em um projeto Node.js usando Nunjuc
 ![home](https://user-images.githubusercontent.com/57117820/75500057-b5585980-59aa-11ea-8e5d-5f12f63265c7.PNG)
 
 #### Detalhe da receita
-*Ao clicar em uma receita agora o usuário deve ser redirecionado para uma nova página contendo todas informações da receita como ingredientes, modo de preparo e informações adicionais (todas essas informações estão contidas no arquivo data.js).
-*Na página de listagem não é mais necessário abrir o modal como tínhamos no desafio anterior do Foodfy.
+* Ao clicar em uma receita agora o usuário deve ser redirecionado para uma nova página contendo todas informações da receita como ingredientes, modo de preparo e informações adicionais (todas essas informações estão contidas no arquivo data.js).
+* Na página de listagem não é mais necessário abrir o modal como tínhamos no desafio anterior do Foodfy.
 
 ![Capturar3](https://user-images.githubusercontent.com/57117820/75500417-a3c38180-59ab-11ea-81e4-4930044fe710.PNG)
 
