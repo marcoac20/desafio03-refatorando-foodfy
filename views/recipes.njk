@@ -4,24 +4,9 @@
     <section class="cards" id="receitas">
 
     {% for item in receita %}
-        <div class="card" id="{{item.id}}">
+        <div class="card" id="{{loop.index -1}}">
             <div class="card_image">
-                <img src="{{item.image}}" alt="{{item.id}}">
-            </div>
-            
-            <div class="card_content">
-                <p class="card-title">{{item.title}}</p>
-            </div>
-            <div class="card_info">
-                <p class="author">{{item.author}}</p>
-            </div>
-        </div>
-    {% endfor %}
-
-    {% for item in receita %}
-        <div class="card" id="{{item.id}}">
-            <div class="card_image">
-                <img src="{{item.image}}" alt="{{item.id}}">
+                <img src="{{item.image}}" alt="{{item.title}}">
             </div>
             
             <div class="card_content">

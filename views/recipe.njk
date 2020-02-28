@@ -11,8 +11,7 @@
         <h1>{{recipe.title}}</h1>
       </div>
       <div id="card-author">
-        <p>por
-          {{recipe.author}}</p>
+        <p>{{recipe.author}}</p>
       </div>
     </div>
 
@@ -33,11 +32,11 @@
     <div id="preparation" class="button">
       <div>
         <h2>Modo de preparo</h2>
-        <span>MOSTRAR</span>
+        <span>ESCONDER</span>
       </div>
-      <div class="button-content hidden">
+      <div class="button-content">
         <ul>
-          {% for preparation in recipe.preparations %}
+          {% for preparation in recipe.preparation %}
             <li>{{preparation}}</li>
           {% endfor %}
         </ul>

@@ -317,3 +317,84 @@ header {
         padding: 0 !important;
     }
 }
+
+/* RECIPE PAGE */
+#cards{
+    margin-left: 212px;
+}
+
+#card__image img{
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+#card-title h1{
+    width: 940px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: bold;
+}
+
+#card-author p{
+    width: 940px;
+    text-align: center;
+    color: #777;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#ingredients{
+    margin-top: 50px;
+}
+
+#ingredients div:first-child{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;;
+}
+
+#preparation div:first-child{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;;
+}
+#info div:first-child{
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;;
+}
+
+#info span,
+#preparation span,
+#ingredients span {
+    margin: 10px 0px 0px 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #999;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#preparation ul,
+#ingredients ul{
+    width: 940px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#info,
+#preparation{
+    margin-top: 39px;
+}
+
+#info p{
+    margin-top: 20px;
+    width: 940px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+    text-align: justify;
+}
+
+.button-content.hidden {
+    display: none !important;
+}
