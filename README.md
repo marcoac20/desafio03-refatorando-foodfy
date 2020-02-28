@@ -7,11 +7,11 @@ Nesse desafio você irá refatorar, ou seja, reescrever algumas partes, do seu c
 Até esse módulo não conhecíamos sobre back-end, ou seja, todos dados da nossa página ficavam no próprio front-end (arquivos HTML).
 Agora que conhecemos sobre Node.js vamos tornar a exibição dos dados mais dinâmica 🚀
 
-### Instalção
-Para executar, abra o terminal na pasta do repositório e digite o comando abaixo:
+### Instalação
+Para executar, abra o terminal na pasta do repositório e digite o comando:
 `npm install`
 
-Após a intalação, execute o comando a abaixo:
+Após a intalação, execute o comando:
 `npm start`
 
 Abra o navegador e digite no endereço [localhost:5000](localhost:5000)
